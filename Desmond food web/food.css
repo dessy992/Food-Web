@@ -1,0 +1,266 @@
+.print-1{
+    background-color: #1ac073;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 250px;
+}
+
+.print-1 div{
+    padding: 0px 70px;
+}
+
+.list ul{
+    display: flex;
+    justify-items: space-between;
+}
+
+.list ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.print-1 li:hover{
+    background-color: white;
+    color: #1ac073;
+}
+
+.nav-img .bag{
+    height: 20px;
+    width: 20px;
+    background-color: #1ac073;
+    margin-left: 20px;
+}
+
+
+/* section-1 */
+
+
+.section-1{
+    background-color: #1ac073;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 100px 250px;
+}
+
+.box-1{
+    margin-left: 50px;
+}
+
+.box-1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    line-height: 82px;
+}
+
+.box-1 input{
+    padding: 10px 20px;
+    border-radius: 10px 0px 0px 10px;
+    height: 58px;
+    width: 300px;
+    border: none;
+}
+
+.box-1 button{
+    padding: 10px 20px;
+    margin-right: 5px;
+    background-color: #f3ba00;
+    border-radius: 0px 10px 10px 0px;
+    height: 58px;
+    width: 100px;
+    border: none;
+}
+
+.box-2{
+    margin-right: 50px;
+}
+
+
+/* scetion-2 */
+
+.section-2{
+    padding: 100px 250px;
+    text-align: center;
+    background-color: rgba(219, 235, 233, 0.527);
+}
+
+.section-2 h1{
+    padding-left: 40px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.section-2 ul{
+    display: flex;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.section-2 ul li{
+    list-style: none;
+    border: 2px solid #f3ba00;
+    padding: 20px;
+    width: 15%;
+    text-align: center;
+    justify-content: left;
+}
+
+.section-2 li:hover{
+    background-color: #f3ba00;
+    color: white;
+}
+
+
+.all{
+    border-radius: 10px 0 0 10px;
+    background-color: #f3ba00;
+}
+
+.all:hover{
+    background-color: transparent;
+}
+
+.coming{
+    border-radius: 0 10px 10px 0;
+}
+
+.section-2 .not{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.section-2 select{
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    height: 58px;
+    width: 17%;
+    border: none;
+}
+
+option{
+    color: gray;
+    background-color: gray;
+}
+
+.section-2 .bait:hover{
+    background-color: #f3ba00;
+    color: white;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding: 0px 20px;
+}
+
+.food-cad{
+    background-color: whitesmoke;
+    box-shadow: rgb(0, 0, 0, 0.1) 0px 10px 15px -3px, rgb(0, 0, 0, 0.5) 0px 4px 6px -2px;
+    margin: 10px 10px;
+}
+
+
+.up{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+    padding: 0 10px;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.dowm button{
+    margin-right: 40px;
+}
+
+.bait{
+    margin-top: 200px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: 58px;
+    width: 17%;
+    background-color: transparent;
+    border: 2px solid #f3ba00;
+    color: gray;
+    font-size: 15px;
+}
+
+.section-3{
+    padding: 100px 250px;
+}
+
+.section-3 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-3 .mage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 250px;
+    background-color: rgba(219, 235, 233, 0.527);
+}
+
+.fit h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form input{
+    padding: 10px;
+    width: 43%;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+
+footer{
+    background-color: #1ac073;
+    text-align: center;
+    color: white;
+    padding: 5px 250px;
+}
+
+.print-2{
+    background-color: #1ac073;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.print-2 .bag{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+hr{
+    background-color: white;
+    color: white;
+}
